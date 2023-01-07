@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./css/dist/style.css">
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Project tracking intro component</title>
+
+</head>
+<body class="overflow-x-hidden" id="body">
+  <header class="h-[400px] sm:h-[500px] lg:h-[800px] overflow-x-hidden">
+    <!-- mobile -->
+    <div class="flex sm:hidden h-auto w-full justify-between items-center mt-4 px-5 z-10 overflow-x-hidden">
+      <img src="./src/images/logo.svg" alt="" class="w-7 h-7 flex">
+
+      <ul class="gap-4 flex-col items-center justify-center h-auto text-gray-700 absolute top-14 left-0 right-0 z-40 bg-gray-50 rounded-md drop-shadow-lg mx-7 p-4" id="menu">
+        <li class="cursor-pointer text-center font-bold uppercase py-2 w-full h-auto">Product</li>
+        <li class="cursor-pointer text-center font-bold uppercase py-2 w-full h-auto">Features</li>
+        <li class="cursor-pointer text-center font-bold uppercase py-2 w-full h-auto">Pricing</li>
+        <li class="cursor-pointer text-center font-bold uppercase text-gray-500 py-2 w-13 border-t-4 w-full h-auto">Login</li>
+      </ul>
+      <button type="button" alt="" class="flex w-7 h-7 lg:w-12 lg:h-12 hover:cursor-pointer"
+      id="btn-menu"></button>
+    </div>
+    <!-- desktop & tablet -->
+    <div class="xs:hidden h-[60px] mt-4 px-7 md:px-12 sm:flex justify-between items-center lg:ml-[100px] lg:px-0 lg:mr-12 z-30">
+      <img src="./src/images/logo.svg" alt="" class="w-7 h-7 lg:w-12 lg:h-12 flex">
+
+      <ul class="flex relative gap-4 flex-row sm:items-center justify-end text-right text-gray-700 bg-transparent " id="menu2">
+        <li class="hover:drop-shadow-lg hover:text-gray-900 cursor-pointer text-center font-semibold uppercase">Product</li>
+        <li class="hover:drop-shadow-lg hover:text-gray-900 cursor-pointer text-center font-semibold uppercase">Features</li>
+        <li class="hover:drop-shadow-lg hover:text-gray-900 cursor-pointer text-center font-semibold uppercase">Pricing</li>
+        <li class="w-[7px] h-[7px] rounded-full bg-gray-500"></li>
+        <li class="hover:drop-shadow-lg hover:text-gray-900 cursor-pointer text-center font-semibold uppercase text-gray-500">Login</li>
+      </ul>
+    </div>
+    
+    <div class="bg-gray-200 h-[400px] sm:h-[500px] lg:h-[40%] absolute right-0 left-[50%] top-0 rounded-bl-3xl -z-10"></div>
+  </header>
+
+  <main class="w-full justify-center items-center flex flex-col gap-4 md:px-12 lg:px-0 lg:pl-[100px] xs:p-4 lg:flex-row-reverse 
+  absolute top-24 lg:pb-0 z-1 overflow-x-hidden">
+    <div class="w-[150%] lg:w-[100em] translate-x-[14%] overflow-x-hidden">
+      <img src="./src/images/illustration-devices.svg" alt=""
+      class="w-full drop-shadow-2xl overflow-x-hidden">
+    </div>
+    <div class="flex flex-col gap-3 md:gap-5 xs:h-auto w-full xs:mt-10 sm:mt-16 md:mt-24 lg:w-[60%]">
+      <div class="flex flex-row">
+        <span class="bg-gray-800 rounded-[2em] text-white px-3 py-1 font-semibold mr-3 uppercase">New</span>
+        <h2 class="uppercase text-gray-600 font-Barlow tracking-[3.5px]">Monograph Dashboard</h2>
+      </div>
+
+      <h1 class="uppercase font-bold xs:text-3xl md:text-[3em] text-left text-gray-800 font-BarlowCondensed lg:leading-normal">Powerful insights into your team</h1>
+      <p class="my-4 text-left text-[18px] text-gray-600">Project planning and time tracking for agile teams</p>
+
+      <div class="flex justify-between lg:justify-start gap-6 xs:text-[11.5px] md:text-[12.5px] sm:justify-start">
+        <button class="bg-red-400 rounded-lg py-2 px-3 text-white uppercase font-semibold hover:bg-red-600" id="btn-red">
+          Schedule a demo
+
+        </button>
+        <button class="bg-gray-50 rounded-lg py-2 px-3 text-gray-400 uppercase font-semibold hover:bg-gray-300 hover:text-gray-700" id="btn-gray">
+          to see a live preview
+
+        </button>
+      </div>
+    </div>
+    
+  </main>
+  
+  <footer class=" text-[13px] p-4 bg-gray-200 font-bold rounded-t-[2.5em] fixed bottom-0 left-0 right-0 z-20">
+    <p class="text-gray-500 text-center">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/liz1831" target="_blank" class="text-red-400">Liz1831</a>.
+    </p>
+  </footer>
+  <script src="/src/js/main.js"></script>
+</body>
+</html>
