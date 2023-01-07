@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/liz1831/project-tracking-intro-component-master.git)
-- Live Site URL: (https://liz1831-project-tracking-intro-component-master)
+- Live Site URL: (https://liz1831-project-tracking-intro-comp.netlify.app)
 
 ## My process
 
@@ -44,5 +44,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [liz1831](https://liz1831-project-tracking-intro-component-master)
+- Website - [liz1831](https://liz1831-project-tracking-intro-comp.netlify.app)
 - Frontend Mentor - [@liz1831](https://www.frontendmentor.io/profile/liz1831)
